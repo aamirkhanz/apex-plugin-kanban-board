@@ -15,11 +15,13 @@
   ],
   "homepage": "https://github.com/aamirkhanz/apex-plugin-kanban-board",
   "bugs": {
-    "url": "https://github.com/aamirkhanz/apex-plugin-kanban-board/issues"
+    "url": "https://github.com/aamirkhanz/apex-plugin-kanban-board/issues",
+    "email": "aamir_sohail@live.com"
   },
   "license": "MIT",
   "author": {
     "name": "TechRevX",
+    "email": "aamir_sohail@live.com",
     "url": "https://www.techrevx.com"
   },
   "repository": {
