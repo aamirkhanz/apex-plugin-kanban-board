@@ -1,0 +1,46 @@
+{
+  "name": "Kanban Board",
+  "version": "1.0",
+  "description": "<p>Cards in status lanes that users drag to a new lane or position, saved with your own PL/SQL.</p><p>Source: any region source with one row per card. Map ID, Title and Status; Description, Assignee, Due Date, Label and Color are optional. Cards appear in each lane in the order of the query. Lanes: listed in Columns as value:Label or value:Label:limit (work-in-progress limit), or one per status found in the data. Moving: drag with mouse or touch, or press Ctrl+Left / Ctrl+Right on a focused card. The Move Code gets :ID, :STATUS, :POSITION and :ORDER; if it fails the card moves back.</p><p>Requires Oracle APEX 26.2 or later. Documentation, updates and more plug-ins: https://www.techrevx.com</p>",
+  "keywords": [
+    "oracle",
+    "apex",
+    "plugin",
+    "techrevx",
+    "kanban",
+    "board",
+    "drag and drop",
+    "tasks",
+    "wip limits"
+  ],
+  "homepage": "https://github.com/aamirkhanz/apex-plugin-kanban-board",
+  "bugs": {
+    "url": "https://github.com/aamirkhanz/apex-plugin-kanban-board/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "TechRevX",
+    "url": "https://www.techrevx.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aamirkhanz/apex-plugin-kanban-board.git"
+  },
+  "oracle": {
+    "versions": [
+      "19c",
+      "21c",
+      "23ai"
+    ],
+    "apex": {
+      "versions": [
+        "26.2"
+      ],
+      "plugin": {
+        "internalName": "COM.TECHREVX.KANBAN",
+        "type": "region",
+        "previewImage": "https://raw.githubusercontent.com/aamirkhanz/apex-plugin-kanban-board/main/screenshots/preview.png"
+      }
+    }
+  }
+}
